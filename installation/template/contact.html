@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='contact.css')}}">
+</head>
+<body>
+    <div class="taskbar">
+        <ul>
+          <li><a href="#">My Profile</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">About Us</a></li>
+        </ul>
+      </div>
+    
+      <div class="images">
+        <img align="right" src="g20.png" width="auto" height="110px">
+        <img align="right" src="beti.png" width="auto">
+        <img src="{{url_for('static',filename='anganwadi.jpg')}}">
+        <img src="{{url_for('static',filename='tnd.png')}}">
+        <img src="{{url_for('static',filename='pa.png')}}">
+        <img src="{{url_for('static',filename='pmm.png')}}">
+      </div>
+
+      <div class="review">
+       <h2> Contact us..</h2>
+      </div>
+
+      <div class="review-container">
+        <textarea placeholder="Write your review here..." style="width: 100%; height: calc(100% - 42px); resize: none;"></textarea>
+        <button class="submit-button">Submit Review</button>
+    </div>
+
+      
+</body>
+</html>

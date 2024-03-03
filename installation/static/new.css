@@ -1,0 +1,119 @@
+
+    body {
+        background-color: #fff7f1;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+    .taskbar {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+    }
+    .taskbar ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    .taskbar li {
+      display: inline;
+      margin-right: 20px;
+    }
+    .taskbar a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+    }
+    .taskbar a:hover {
+      color: #ffd700; /* Change color on hover */
+    }
+
+    .images{
+        background-color: #81acc967;
+        padding-top: 10px;
+        justify-content: space-between;
+        display: flex;
+        top: 80px;
+        border:3px white;
+        height: 120px;
+        width: auto;
+padding-bottom: 10px;
+}
+
+.containertext{
+    color: black;
+    margin-top: 130px;
+    text-shadow:30px #caa4a4;
+    text-decoration-line:initial;
+    text-align: center;
+}
+
+
+  .block{
+    color: black;
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid black;
+    height: 545px;
+    width: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+
+    div.new{
+        margin-left: 50px;
+        padding-top: 50px;
+        background-color: #ffe4c9;
+        top: 190px;
+        width: 400px;
+        height: 480px;
+        border: 3px solid black;
+        margin: 2px;
+    }
+
+    div.in {
+
+        margin-top: 570px;
+        background-color: #ffe4c9;
+        top: 200px;
+  position: absolute;
+  left: 480px;
+  width: 800px;
+  height: 450px;
+  border: 3px solid black;
+} 
+
+
+
+
+
+    .container {
+      padding: 20px;
+    }
+    h1 {
+        
+      font-size: 36px;
+      color: #333;
+    }
+    p {
+      font-size: 18px;
+      color: #666;
+    }
+
+
+
+
+
+    #image-preview {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .preview-image {
+        width: 150px;
+        height: 150px;
+        margin: 10px;
+        object-fit: cover;
+      }

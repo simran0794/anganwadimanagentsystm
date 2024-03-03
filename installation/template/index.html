@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Front Page</title>
+  <link rel="stylesheet" href="{{url_for('static',filename='new.css')}}">
+</head>
+
+<body>
+
+  <div class="taskbar">
+    <ul>
+      <li><a href="#">My Profile</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="#">About Us</a></li>
+    </ul>
+  </div>
+
+  <div class="images">
+    <img align="right" src="{{url_for('static',filename='g20.png')}}" width="auto" height="110px">
+    <img align="right" src="{{url_for('static',filename='beti.png')}}" width="auto">
+    <img src="{{url_for('static',filename='anganwadi.jpg')}}">
+    <img src="{{url_for('static',filename='tnd.png')}}">
+    <img src="{{url_for('static',filename='pa.png')}}">
+    <img src="{{url_for('static',filename='pmm.png')}}">
+  </div>
+
+  <div class="block">
+    <div class="containertext">
+      <i class="fa fa-2x fa-bug d-block my-3 mx-auto rounded-circle bg-o-color-4 text-o-color-1"></i>
+      <h1 class="display-3" style="text-align: center; font-weight: bold;">
+        — Anganwadi —
+      </h1>
+      <p class="lead" style="text-align: center;">
+        Our mission is to create a nurturing environment that fosters the physical, social, emotional, and cognitive
+        development of children.
+      </p>
+
+    </div>
+
+  </div>
+  <div class="album">
+
+  <div class="gallery">
+    <a target="_blank" href="img_5terre.jpg">
+      <img src="{{url_for('static',filename='img_5terre.jpg')}}" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+  
+  <div class="gallery">
+    <a target="_blank" href="img_forest.jpg">
+      <img src="{{url_for('static',filename='img_forest.jpg')}}" alt="Forest" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+  
+  <div class="gallery">
+    <a target="_blank" href="img_lights.jpg">
+      <img src="{{url_for('static',filename='img_lights.jpg')}}" alt="Northern Lights" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+  
+  <div class="gallery">
+    <a target="_blank" href="img_mountains.jpg">
+      <img src="{{url_for('static',filename='img_mountains.jpg')}}" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+  </div>
+
+  <div class="container">
+    <h1>Welcome to Our Website</h1>
+    <p>This is the front page of our website. You can add your content here.</p>
+  </div>
+</body>
+
+</html>
